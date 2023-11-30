@@ -6,75 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Katherine Vermiglio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
 </head>
 
-<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-    <nav class="navbar navbar-expand-md fixed-top navbar-light" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#">Katherine Vermiglio</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item nav-link"><a class="nav-link active" href="#about">About</a></li>
-                    <li class="nav-item nav-link"></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="index.html">Linkedin</a></li>
+<body id="page-top">
+    <nav class="navbar navbar-expand navbar-light" id="sidebar-wrapper">
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler d-none" data-bs-target="#"></button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav sidebar-nav" id="sidebar-nav">
+                    <li class="nav-item sidebar-brand"><a class="nav-link active js-scroll-trigger" href="#page-top">Katherine Vermiglio</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item sidebar-nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="text-body-emphasis brand-heading">Katherine Vermiglio</h1>
-                        <p class="intro-text"></p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
-                    </div>
-                </div>
-            </div>
+    <header class="d-flex masthead" style="background-image:url('assets/img/bg-masthead.jpg');">
+        <div class="container text-capitalize text-dark bg-info bg-gradient my-auto text-center">
+            <h1 class="mb-1">Katherine</h1>
+            <h3 class="mb-5"><em>Vermiglio</em></h3><a class="btn btn-primary active text-capitalize link-secondary bg-primary bg-gradient border rounded-pill border-4 border-warning-subtle visible btn-xl js-scroll-trigger" role="button" href="https://www.linkedin.com/in/katherine-vermiglio-289a78290/">LinkedIn</a>
+            <div class="overlay"></div>
         </div>
     </header>
-    <section class="text-center text-success content-section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>About Katherine</h2>
-                    <p></p>
-                    <p></p>
-                    <p>Senior French Major at Bob Jones University&nbsp;</p>
-                    <p>Teacher's Assistant at BJA's Child Development Center</p>
-                    <p>Attends Morningside Baptist Church in Greenville, SC</p>
-                    <p>Enjoys Music, Art, and Theatre</p>
-                    <p>Favorite color is Sage Green</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="text-center text-danger content-section" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>See My Linkedin profile</h2>
-                    <p></p>
-                    <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;</li>
-                        <li class="list-inline-item">&nbsp;<a class="btn btn-primary btn-lg link-secondary btn-default" role="button" href="#https://www.linkedin.com/in/katherine-vermiglio-289a78290/"><i class="fa fa-linkedin-square fa-fw" style="font-size: 43px;"></i><span class="network-name"></span></a></li>
-                        <li class="list-inline-item">&nbsp;</li>
-                        <li class="list-inline-item"></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="map-clean"></div>
-    <footer>
+    <section id="about" class="content-section bg-light" style="backdrop-filter: hue-rotate(360deg);--bs-body-bg: var(--bs-danger-bg-subtle);">
         <div class="container text-center">
-            <p>Copyright ©&nbsp;Katherine Vermiglio 2023</p>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>About Katherine</h2>
+                    <p class="lead mb-5"></p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <h2 style="color: var(--bs-emphasis-color);background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;), url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;), var(--bs-danger-bg-subtle);">Senior French Major at Bob Jones University</h2>
+                    <h2>Teacher's Assistant at BJA's Child Development Center</h2>
+                    <h2>Attends Morningside Baptist Church in Greenville, SC</h2>
+                    <h2>Enjoys Music, Art, and Theatre</h2>
+                    <h2>Favorite Color is Sage Green</h2>
+                    <p class="lead mb-5"></p>
+                </div>
+            </div>
         </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">&nbsp;</li>
+                <li class="list-inline-item">&nbsp;<a class="link-light text-bg-primary visible social-link rounded-circle" href="#https://www.linkedin.com/in/katherine-vermiglio-289a78290/"><i class="icon-social-linkedin"></i></a></li>
+                <li class="list-inline-item">&nbsp;</li>
+            </ul>
+            <p class="text-muted mb-0 small">Copyright &nbsp;© Katherine Vermiglio 2023</p>
+        </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/grayscale.js"></script>
+    <script src="assets/js/stylish-portfolio.js"></script>
 </body>
 
 </html>
